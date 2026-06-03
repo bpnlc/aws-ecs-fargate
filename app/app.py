@@ -7,7 +7,7 @@ def home():
     return """
     <h1>AWS ECS Fargate Deployment Successful</h1>
     <p>This containerised web application is running on AWS ECS Fargate.</p>
-    <p>Deployed using Docker, Terraform, ECR, ALB and GitHub Actions.</p>
+    <p>Deployed using Docker, Terraform, ECR, ALB, ECS Fargate and GitHub Actions.</p>
     """
 
 @app.route("/health")
